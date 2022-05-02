@@ -80,6 +80,14 @@ With an appropieate `<timer_name>.service`:
     User=<user>
     Group=<group>
 
+Timers need to be enabled by running (`--now` is required to enable timer in current session, not only after boot):
+
+    systemctl enable --now <timer_name>.timer
+
+Timers can be listed using:
+
+    systemctl list-timers --all
+
 # Other Examples
 
 ## Example status
