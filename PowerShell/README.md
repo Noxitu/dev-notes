@@ -18,6 +18,9 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 # Bash-like TAB for cd
 Set-PSReadlineKeyHandler -Key Tab -Function Complete
 
+# Bash-like Ctrl-d
+Set-PSReadlineKeyHandler -Key Ctrl+d -Function DeleteCharOrExit
+
 if ($env:WT_SESSION)
 {
     # https://www.nerdfonts.com/ -> CascadiaCode font
@@ -27,6 +30,13 @@ if ($env:WT_SESSION)
 
 # Aliases:
 Set-Alias -Name "less" -Value "C:\Program Files\Git\usr\bin\less.exe"
+Set-Alias -Name "head" -Value "C:\Program Files\Git\usr\bin\head.exe"
+Set-Alias -Name "tail" -Value "C:\Program Files\Git\usr\bin\tail.exe"
+Set-Alias -Name "xxd" -Value "C:\Program Files\Git\usr\bin\xxd.exe"
+Set-Alias -Name "grep" -Value "C:\Program Files\Git\usr\bin\grep.exe"
+Set-Alias -Name "uniq" -Value "C:\Program Files\Git\usr\bin\uniq.exe"
+Set-Alias -Name "du" -Value "C:\Program Files\Git\usr\bin\du.exe"
+Set-Alias -Name "wc" -Value "C:\Program Files\Git\usr\bin\wc.exe"
 
 function which($name) 
 {
