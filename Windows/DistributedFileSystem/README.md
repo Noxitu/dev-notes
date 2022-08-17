@@ -14,6 +14,6 @@ Can be used to view actual path using command:
 
 Which should result in output like:
 
-    The DFS Path <\your-domain.com\resource\username\folder> resolves to -> <\\specific-machine123.your-domain.com\username\folder>
+    The DFS Path <\\your-domain.com\resource\username\folder> resolves to -> <\\specific-machine123.your-domain.com\username\folder>
 
     Done processing this command.
