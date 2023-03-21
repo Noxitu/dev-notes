@@ -20,6 +20,7 @@ key        = [c1 59 e2 36 43 d2 fe b5 d1 df]
 timestamp  = 1679428478.260000
 timestamp* = 2023-03-21T19:54:38.260000+00:00
 counter    = 55980949
+counter*   = 0x3563395
 
 message    = [00 00 00 00 03 56 33 95]
 hash       = [67 9c d7 8c e6 5d f6 b1 91 4c ac 1e 8a 9a 3b f7 d2 eb 3b cd]
