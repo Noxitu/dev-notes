@@ -112,7 +112,7 @@ Following URI format is encoded as QR code for adding secret to authenticators:
 
     otpauth://totp/<Issuer>:<User>?secret=<Secret>&issuer=<Issuer>
     
-For example, if secret used in example was provided by GitHub (for my account), it would use following URI:
+For example, if secret used in example was provided by GitHub it would use following URI:
 
     otpauth://totp/GitHub:Noxitu?secret=YFM6ENSD2L7LLUO7&issuer=GitHub
 
