@@ -49,7 +49,7 @@ def _decode_secret(secret):
     return base64.b32decode(secret + n * '=')
 ```
 
-TOTP defines only the usage of seconds since Epoch divided by 30 to get counter input as required by HOTP:
+TOTP defines the usage of seconds since Epoch divided by 30 to get counter input as required by HOTP:
 
 ```py
 def totp(secret, timestamp=None, *, timestep=30):
