@@ -13,8 +13,8 @@ TOTP relies on following resources:
 
 A example of a single, TOTP generation looks as follows. Value names are same as in the code below.
 
-```py
-    >>> totp('c', 1679428478.26)
+```
+>>> totp('c', 1679428478.26)
 key        = [c1 59 e2 36 43 d2 fe b5 d1 df]
 
 timestamp  = 1679428478.260000
