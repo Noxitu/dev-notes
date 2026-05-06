@@ -69,9 +69,9 @@ While not part of JSON RPC, MCP servers can be the ones sending requests. Most o
 | `resources/subscribe` | |
 | `resources/unsubscribe` | |
 | `notifications/resources/updated` | |
-| `prompts/lisst` | |
+| `prompts/list` | |
 | `prompts/get` | |
-| notifications/prompts/list_changed`` | |
+| notifications/prompts/list_changed` | |
 | `sampling/createMessage` | MCP server asking for LLM response to a message. |
 | `elicitation/create` | Request user of the client for confirmation of an action. |
 | `roots/list` | |
